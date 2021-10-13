@@ -14,5 +14,24 @@ function multiplyTwoNumbers(number1, number2) {
     return result
 }
 
-const result = multiplyTwoNumbers(3,4)
-console.log(result)
+/**
+ * Simple function that concatenates (combines) two strings
+ *
+ * @param {string} string1 first value to be concatenated
+ * @param {string} string2 second value to be concatenated
+ * @return {string} the combined value from concatenating two string
+ */
+
+function combineTwoStrings(string1, string2) {
+    return string1 + string2
+}
+
+// const result = multiplyTwoNumbers(3,4)
+// console.log(result)
+
+const firstString = "I am a "
+const secondString = "concatenated string!"
+
+console.log(combineTwoStrings(firstString, secondString))
+
+
