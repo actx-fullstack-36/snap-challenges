@@ -1,0 +1,1 @@
+Preform a fetch request to https://ddc-web-student.cnm.edu/apis/ then access the data field to create a bootstrap card for each object in the array and display the cards on the DOM 
